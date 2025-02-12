@@ -1,0 +1,1 @@
+# mine_kafka_postgres
