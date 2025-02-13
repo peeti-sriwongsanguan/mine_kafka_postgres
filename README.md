@@ -20,3 +20,15 @@ This project I design a system that uses both Postgres SQL and Kafka to create a
    - Conda or Python 3.9+
    - Docker and Docker Compose
    - AWS Account with S3 access
+
+### How to run this project
+```commandline
+# for the first time, you want to setup the project's virtual environment
+make setup
+
+# then activate the conda
+conda activate mine_venv
+
+# to start kafka and a database using postgres
+make run
+```
