@@ -1,6 +1,23 @@
+# Environment files
 .env
+docker-compose.override.yml
 
-.idea
+# Python
+__pycache__/
+*.py[cod]
+mine_venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+.docker/
 
 *.pyc
 __pycache__
+
+
